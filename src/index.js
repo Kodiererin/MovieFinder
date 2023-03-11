@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client';      // we only import once however the big the project is.
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
