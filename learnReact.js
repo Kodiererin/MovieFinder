@@ -19,6 +19,11 @@ const App = () => {
   // This array in the useEfffecr is the dependency array!
   // which stores the changes done by the user.
   // without the array the useEffect() will update and again the counter will reset back to 100.
+  // If there is any element in the array then it will continously run.
+  // It is recommended to not to store any element in the array.
+
+
+
   function add(){
     updateCounter(counter+1);
   }
@@ -130,3 +135,30 @@ export default App;
 // }
 
 // See the Documentaiton of the Hooks!!!!!!!!.
+
+
+
+// import './App.css';
+// import { useEffect } from 'react';
+
+// import { useState } from 'react';   // using State Hooks
+// Any function that starts with a use in react we call it a Hook
+
+// const App = () => {
+  // const[counter , updateCounter] = useState(0);
+  // useEffect(()=>{
+    // Use effect allows us to do something or some kind of a effect or some kind of an event.
+    // alert("Reloaded");
+    // Alert message appears in the page reload
+    
+    // Never Modify state manually.
+    // updateCounter(100);
+
+  // },[])
+
+  // This array in the useEfffecr is the dependency array!
+  // which stores the changes done by the user.
+  // without the array the useEffect() will update and again the counter will reset back to 100.
+  // If there is any element in the array then it will continously run.
+  // It is recommended to not to store any element in the array.
+  
