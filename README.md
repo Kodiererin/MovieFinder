@@ -2,23 +2,12 @@
 
 This is a Movie Finder Project, Where user can search for movies and will get the desired Result.
 
-## Acknowledgements
-
-- [CSS Formatter](https://www.cleancss.com/css-beautify/)
-- [Stack Overflow](https://stackoverflow.com/)
-
 ## Run Locally
 
 Clone the project
 
 ```bash
   git clone https://github.com/Kodiererin/MovieFinder.git
-```
-
-Go to the project directory
-
-```bash
-  cd MovieFinder
 ```
 
 Install dependencies
@@ -38,6 +27,12 @@ Start the server
 **Client:** React, HTML , BootStrap, CSS
 
 **Server:** Node
+
+
+## Acknowledgements
+
+- [CSS Formatter](https://www.cleancss.com/css-beautify/)
+- [Stack Overflow](https://stackoverflow.com/)
 
 ## 🚀 About Me
 
