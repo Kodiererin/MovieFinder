@@ -24,7 +24,7 @@ Start the server
 
 ## Tech Stack
 
-**Client:** React, HTML , BootStrap, CSS
+**Client:** React, HTML , BootStrap, CSS , TailwindCSS
 
 **Server:** Node
 
